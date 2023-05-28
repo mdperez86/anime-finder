@@ -9,7 +9,7 @@ export function StaffListItem({ staff }: StaffListItemProps) {
       target="_blank"
       rel="nofollow noreferrer"
     >
-      <div className="flex grow gap-4 hover:bg-white/10">
+      <div className="flex grow gap-4">
         <div className="flex items-start shrink-0">
           <figure className="relative aspect-square rounded-full w-16 bg-white/20 overflow-hidden">
             <Image
