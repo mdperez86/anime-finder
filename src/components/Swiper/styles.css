@@ -1,0 +1,10 @@
+@import "swiper/css";
+@import "swiper/css/pagination";
+
+.swiper-pagination-bullet {
+  @apply opacity-100;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-accent-500;
+}

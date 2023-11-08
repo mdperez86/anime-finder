@@ -16,7 +16,7 @@ export default function RootLayout({ children }: LayoutProps) {
       <body
         className={classNames(
           inter.className,
-          "text-secondary-200 text-base bg-secondary-950"
+          "text-secondary-200 text-base bg-secondary-950 min-h-screen"
         )}
       >
         {children}
