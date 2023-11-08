@@ -33,7 +33,7 @@ export default async function Home() {
                     className="object-cover pointer-events-none"
                   />
                 </div>
-                <div className="p-4 pb-10 space-y-2 absolute right-0 bottom-0 left-0 bg-secondary-900/80">
+                <div className="p-4 pb-10 space-y-2 absolute right-0 bottom-0 left-0 bg-secondary-900/80 backdrop-blur-sm shadow-sm">
                   <h2 className="truncate text-ellipsis text-lg font-semibold text-white">
                     {anime.titles[0].title}
                   </h2>
