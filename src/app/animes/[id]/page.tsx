@@ -1,24 +1,24 @@
-import { Score } from "@this/components/Score";
-import {
-  getAnimeFullById,
-  getAnimeCharacters,
-  getAnimeStaff,
-} from "@this/services/animes";
+import { Suspense } from "react";
 import Image from "next/image";
-import { PageProps } from "../../types";
+import { Score } from "@this/components/Score";
+import { getAnimeFullById, getAnimeStaff } from "@this/services/animes";
 import { Card } from "@this/components/Card";
 import { PlayCircleIcon, PlayIcon } from "@heroicons/react/24/solid";
 import { ButtonLink } from "@this/components/ButtonLink";
 import { Link } from "@this/components/Link";
 import { NavigationListItem } from "@this/components/NavigationListItem";
-import { CharactesAndVoicesActorsListItem } from "@this/components/CharactesAndVoicesActorsListItem";
 import { StaffListItem } from "@this/components/StaffListItem";
+import {
+  Skeleton,
+  CharactesAndVoicesActorsList,
+} from "@this/components/CharactesAndVoicesActorsList";
+
+import { PageProps } from "../../types";
 
 export default async function Page({ params }: PageProps) {
   const { data: anime } = await getAnimeFullById(
     Number.parseInt(params.id as string, 10)
   );
-  const { data: characters } = await getAnimeCharacters(anime.mal_id);
   const { data: staff } = await getAnimeStaff(anime.mal_id);
 
   return (
@@ -141,23 +141,9 @@ export default async function Page({ params }: PageProps) {
           <p>{anime.synopsis}</p>
         </Card>
 
-        <Card>
-          <h2 className="text-primary-400 font-semibold text-lg p-4">
-            Charactes & Voices Actors
-          </h2>
-          <ul className="divide-y divide-secondary-700/50">
-            {characters.splice(0, 6).map((item) => (
-              <CharactesAndVoicesActorsListItem
-                key={item.character.mal_id}
-                characterVoiceActors={item}
-              />
-            ))}
-          </ul>
-
-          <div className="flex items-center justify-end p-4 text-sm">
-            <Link href={`/animes/${anime.mal_id}/characters`}>See all</Link>
-          </div>
-        </Card>
+        <Suspense fallback={<Skeleton />}>
+          <CharactesAndVoicesActorsList anime={anime} />
+        </Suspense>
 
         <Card>
           <h2 className="text-primary-400 font-semibold text-lg p-4">Staff</h2>
