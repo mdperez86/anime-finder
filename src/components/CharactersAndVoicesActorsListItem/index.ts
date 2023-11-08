@@ -1,3 +1,3 @@
-export * from "./CharactesAndVoicesActorsList";
+export * from "./CharactersAndVoicesActorsListItem";
 export * from "./types";
 export * from "./Skeleton";

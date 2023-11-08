@@ -1,5 +1,5 @@
 import { Anime } from "@this/types";
 
-export type CharactesAndVoicesActorsListProps = {
+export type StaffListProps = {
   anime: Anime;
 };

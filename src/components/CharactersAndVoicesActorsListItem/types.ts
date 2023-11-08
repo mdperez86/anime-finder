@@ -1,5 +1,5 @@
 import { AnimeCharacterVoiceActors } from "@this/types";
 
-export type CharactesAndVoicesActorsListItemProps = {
+export type CharactersAndVoicesActorsListItemProps = {
   characterVoiceActors: AnimeCharacterVoiceActors;
 };

@@ -1,17 +1,20 @@
 import { Suspense } from "react";
 import Image from "next/image";
 import { Score } from "@this/components/Score";
-import { getAnimeFullById, getAnimeStaff } from "@this/services/animes";
+import { getAnimeFullById } from "@this/services/animes";
 import { Card } from "@this/components/Card";
 import { PlayCircleIcon, PlayIcon } from "@heroicons/react/24/solid";
 import { ButtonLink } from "@this/components/ButtonLink";
 import { Link } from "@this/components/Link";
 import { NavigationListItem } from "@this/components/NavigationListItem";
-import { StaffListItem } from "@this/components/StaffListItem";
 import {
-  Skeleton,
-  CharactesAndVoicesActorsList,
-} from "@this/components/CharactesAndVoicesActorsList";
+  Skeleton as CharactersAndVoicesActorsListSkeleton,
+  CharactersAndVoicesActorsList,
+} from "@this/components/CharactersAndVoicesActorsList";
+import {
+  Skeleton as StaffListSkeleton,
+  StaffList,
+} from "@this/components/StaffList";
 
 import { PageProps } from "../../types";
 
@@ -19,7 +22,6 @@ export default async function Page({ params }: PageProps) {
   const { data: anime } = await getAnimeFullById(
     Number.parseInt(params.id as string, 10)
   );
-  const { data: staff } = await getAnimeStaff(anime.mal_id);
 
   return (
     <main className="overflow-hidden relative">
@@ -141,22 +143,13 @@ export default async function Page({ params }: PageProps) {
           <p>{anime.synopsis}</p>
         </Card>
 
-        <Suspense fallback={<Skeleton />}>
-          <CharactesAndVoicesActorsList anime={anime} />
+        <Suspense fallback={<CharactersAndVoicesActorsListSkeleton />}>
+          <CharactersAndVoicesActorsList anime={anime} />
         </Suspense>
 
-        <Card>
-          <h2 className="text-primary-400 font-semibold text-lg p-4">Staff</h2>
-          <ul className="divide-y divide-secondary-700/50">
-            {staff.splice(0, 6).map((item) => (
-              <StaffListItem key={item.person.mal_id} staff={item} />
-            ))}
-          </ul>
-
-          <div className="flex items-center justify-end p-4 text-sm">
-            <Link href={`/animes/${anime.mal_id}/staff`}>See all</Link>
-          </div>
-        </Card>
+        <Suspense fallback={<StaffListSkeleton />}>
+          <StaffList anime={anime} />
+        </Suspense>
 
         <Card>
           <h2 className="text-primary-400 font-semibold text-lg p-4">

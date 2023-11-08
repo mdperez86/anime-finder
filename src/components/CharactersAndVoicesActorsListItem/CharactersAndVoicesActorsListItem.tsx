@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { NavigationListItem } from "../NavigationListItem";
-import { CharactesAndVoicesActorsListItemProps } from "./types";
+import { CharactersAndVoicesActorsListItemProps } from "./types";
 
-export function CharactesAndVoicesActorsListItem({
+export function CharactersAndVoicesActorsListItem({
   characterVoiceActors,
-}: CharactesAndVoicesActorsListItemProps) {
+}: CharactersAndVoicesActorsListItemProps) {
   const character = characterVoiceActors.character;
   const voiceActor = characterVoiceActors.voice_actors[0];
 

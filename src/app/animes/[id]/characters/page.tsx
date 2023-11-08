@@ -2,7 +2,7 @@ import { getAnimeCharacters } from "@this/services/animes";
 import { PageProps } from "@this/app/types";
 import Image from "next/image";
 import { Card } from "@this/components/Card";
-import { CharactesAndVoicesActorsListItem } from "@this/components/CharactesAndVoicesActorsListItem";
+import { CharactersAndVoicesActorsListItem } from "@this/components/CharactersAndVoicesActorsListItem";
 
 export default async function Page({ params }: PageProps) {
   const animeId = Number.parseInt(params.id, 10);
@@ -33,7 +33,7 @@ export default async function Page({ params }: PageProps) {
           </h1>
           <ul className="divide-y divide-secondary-700/50">
             {response.data.map((item) => (
-              <CharactesAndVoicesActorsListItem
+              <CharactersAndVoicesActorsListItem
                 key={item.character.mal_id}
                 characterVoiceActors={item}
               />
