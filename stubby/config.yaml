@@ -1,0 +1,88 @@
+- request:
+    url: ^/v4/top/anime$
+    method: GET
+    query:
+      limit: 6
+      filter: "upcoming"
+  response:
+    - status: 200
+      latency: 1000
+      headers:
+        content-type: application/json
+      file: ./top-anime-upcoming.json
+
+- request:
+    url: ^/v4/top/anime$
+    method: GET
+    query:
+      limit: 6
+      filter: "bypopularity"
+  response:
+    - status: 200
+      latency: 1000
+      headers:
+        content-type: application/json
+      file: ./top-anime-bypopularity.json
+
+- request:
+    url: ^/v4/top/anime$
+    method: GET
+    query:
+      limit: 6
+      filter: "airing"
+  response:
+    - status: 200
+      latency: 1000
+      headers:
+        content-type: application/json
+      file: ./top-anime-airing.json
+
+- request:
+    url: ^/v4/anime$
+    method: GET
+  response:
+    - status: 200
+      latency: 1000
+      headers:
+        content-type: application/json
+      file: ./anime.json
+
+- request:
+    url: ^/v4/anime/(\d+)/full$
+    method: GET
+  response:
+    - status: 200
+      latency: 1000
+      headers:
+        content-type: application/json
+      file: ./anime-full.json
+
+- request:
+    url: ^/v4/anime/(\d+)/characters$
+    method: GET
+  response:
+    - status: 200
+      latency: 1000
+      headers:
+        content-type: application/json
+      file: ./anime-characters.json
+
+- request:
+    url: ^/v4/anime/(\d+)/staff$
+    method: GET
+  response:
+    - status: 200
+      latency: 1000
+      headers:
+        content-type: application/json
+      file: ./anime-staff.json
+
+- request:
+    url: ^/v4/anime/(\d+)/videos/episodes$
+    method: GET
+  response:
+    - status: 200
+      latency: 1000
+      headers:
+        content-type: application/json
+      file: ./anime-videos-episodes.json

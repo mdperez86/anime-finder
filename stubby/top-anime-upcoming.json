@@ -1,0 +1,916 @@
+{
+  "pagination": {
+    "last_visible_page": 70,
+    "has_next_page": true,
+    "current_page": 1,
+    "items": {
+      "count": 6,
+      "total": 416,
+      "per_page": 6
+    }
+  },
+  "data": [
+    {
+      "mal_id": 49458,
+      "url": "https://myanimelist.net/anime/49458/Kono_Subarashii_Sekai_ni_Shukufuku_wo_3",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1800/136599.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1800/136599t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1800/136599l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1800/136599.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1800/136599t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1800/136599l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "MRvKQYxvgC4",
+        "url": "https://www.youtube.com/watch?v=MRvKQYxvgC4",
+        "embed_url": "https://www.youtube.com/embed/MRvKQYxvgC4?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/MRvKQYxvgC4/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/MRvKQYxvgC4/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/MRvKQYxvgC4/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/MRvKQYxvgC4/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/MRvKQYxvgC4/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Kono Subarashii Sekai ni Shukufuku wo! 3"
+        },
+        {
+          "type": "Japanese",
+          "title": "この素晴らしい世界に祝福を！3"
+        },
+        {
+          "type": "English",
+          "title": "KonoSuba: God's Blessing on This Wonderful World! 3"
+        }
+      ],
+      "title": "Kono Subarashii Sekai ni Shukufuku wo! 3",
+      "title_english": "KonoSuba: God's Blessing on This Wonderful World! 3",
+      "title_japanese": "この素晴らしい世界に祝福を！3",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Light novel",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2024-01-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 1,
+            "month": 1,
+            "year": 2024
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "2024 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 1118,
+      "members": 208841,
+      "favorites": 2294,
+      "synopsis": "Third season of Kono Subarashii Sekai ni Shukufuku wo!",
+      "background": null,
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 323,
+          "type": "anime",
+          "name": "Nippon Columbia",
+          "url": "https://myanimelist.net/anime/producer/323/Nippon_Columbia"
+        },
+        {
+          "mal_id": 1696,
+          "type": "anime",
+          "name": "Kadokawa",
+          "url": "https://myanimelist.net/anime/producer/1696/Kadokawa"
+        },
+        {
+          "mal_id": 2716,
+          "type": "anime",
+          "name": "Half HP Studio",
+          "url": "https://myanimelist.net/anime/producer/2716/Half_HP_Studio"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 1967,
+          "type": "anime",
+          "name": "Drive",
+          "url": "https://myanimelist.net/anime/producer/1967/Drive"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 62,
+          "type": "anime",
+          "name": "Isekai",
+          "url": "https://myanimelist.net/anime/genre/62/Isekai"
+        },
+        {
+          "mal_id": 20,
+          "type": "anime",
+          "name": "Parody",
+          "url": "https://myanimelist.net/anime/genre/20/Parody"
+        },
+        {
+          "mal_id": 72,
+          "type": "anime",
+          "name": "Reincarnation",
+          "url": "https://myanimelist.net/anime/genre/72/Reincarnation"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 52299,
+      "url": "https://myanimelist.net/anime/52299/Ore_dake_Level_Up_na_Ken",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1170/138393.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1170/138393t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1170/138393l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1170/138393.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1170/138393t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1170/138393l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "sqtIagL463A",
+        "url": "https://www.youtube.com/watch?v=sqtIagL463A",
+        "embed_url": "https://www.youtube.com/embed/sqtIagL463A?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/sqtIagL463A/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/sqtIagL463A/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/sqtIagL463A/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/sqtIagL463A/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/sqtIagL463A/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Ore dake Level Up na Ken"
+        },
+        {
+          "type": "Synonym",
+          "title": "Na Honjaman Level Up"
+        },
+        {
+          "type": "Synonym",
+          "title": "I Level Up Alone"
+        },
+        {
+          "type": "Synonym",
+          "title": "나 혼자만 레벨업"
+        },
+        {
+          "type": "Japanese",
+          "title": "俺だけレベルアップな件"
+        },
+        {
+          "type": "English",
+          "title": "Solo Leveling"
+        }
+      ],
+      "title": "Ore dake Level Up na Ken",
+      "title_english": "Solo Leveling",
+      "title_japanese": "俺だけレベルアップな件",
+      "title_synonyms": [
+        "Na Honjaman Level Up",
+        "I Level Up Alone",
+        "나 혼자만 레벨업"
+      ],
+      "type": "TV",
+      "source": "Web manga",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2024-01-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 1,
+            "month": 1,
+            "year": 2024
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jan 2024 to ?"
+      },
+      "duration": "Unknown",
+      "rating": null,
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 1341,
+      "members": 168749,
+      "favorites": 3444,
+      "synopsis": "Ten years ago, \"the Gate\" appeared and connected the real world with the realm of magic and monsters. To combat these vile beasts, ordinary people received superhuman powers and became known as \"Hunters.\" Twenty-year-old Sung Jin-Woo is one such Hunter, but he is known as the \"World's Weakest,\" owing to his pathetic power compared to even a measly E-Rank. Still, he hunts monsters tirelessly in low-rank Gates to pay for his mother's medical bills.\n\nHowever, this miserable lifestyle changes when Jin-Woo—believing himself to be the only one left to die in a mission gone terribly wrong—awakens in a hospital three days later to find a mysterious screen floating in front of him. This \"Quest Log\" demands that Jin-Woo completes an unrealistic and intense training program, or face an appropriate penalty. Initially reluctant to comply because of the quest's rigor, Jin-Woo soon finds that it may just transform him into one of the world's most fearsome Hunters. \n\n[Written by MAL Rewrite]",
+      "background": null,
+      "season": "winter",
+      "year": 2024,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 17,
+          "type": "anime",
+          "name": "Aniplex",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "mal_id": 1468,
+          "type": "anime",
+          "name": "Crunchyroll",
+          "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 56,
+          "type": "anime",
+          "name": "A-1 Pictures",
+          "url": "https://myanimelist.net/anime/producer/56/A-1_Pictures"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 52807,
+      "url": "https://myanimelist.net/anime/52807/One_Punch_Man_3",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1885/127108.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1885/127108t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1885/127108l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1885/127108.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1885/127108t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1885/127108l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "One Punch Man 3"
+        },
+        {
+          "type": "Synonym",
+          "title": "One Punch Man 3rd Season"
+        },
+        {
+          "type": "Japanese",
+          "title": "ワンパンマン 3"
+        },
+        {
+          "type": "English",
+          "title": "One Punch Man Season 3"
+        }
+      ],
+      "title": "One Punch Man 3",
+      "title_english": "One Punch Man Season 3",
+      "title_japanese": "ワンパンマン 3",
+      "title_synonyms": ["One Punch Man 3rd Season"],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": null,
+        "to": null,
+        "prop": {
+          "from": {
+            "day": null,
+            "month": null,
+            "year": null
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Not available"
+      },
+      "duration": "Unknown",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 1365,
+      "members": 165411,
+      "favorites": 2204,
+      "synopsis": "Third season of One Punch Man.",
+      "background": null,
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 1365,
+          "type": "anime",
+          "name": "Shueisha",
+          "url": "https://myanimelist.net/anime/producer/1365/Shueisha"
+        }
+      ],
+      "licensors": [],
+      "studios": [],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 50,
+          "type": "anime",
+          "name": "Adult Cast",
+          "url": "https://myanimelist.net/anime/genre/50/Adult_Cast"
+        },
+        {
+          "mal_id": 20,
+          "type": "anime",
+          "name": "Parody",
+          "url": "https://myanimelist.net/anime/genre/20/Parody"
+        },
+        {
+          "mal_id": 31,
+          "type": "anime",
+          "name": "Super Power",
+          "url": "https://myanimelist.net/anime/genre/31/Super_Power"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 42,
+          "type": "anime",
+          "name": "Seinen",
+          "url": "https://myanimelist.net/anime/genre/42/Seinen"
+        }
+      ]
+    },
+    {
+      "mal_id": 51180,
+      "url": "https://myanimelist.net/anime/51180/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e_3rd_Season",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1332/139318.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1332/139318t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1332/139318l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1332/139318.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1332/139318t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1332/139318l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season"
+        },
+        {
+          "type": "Synonym",
+          "title": "Welcome to the Classroom of the Elite"
+        },
+        {
+          "type": "Synonym",
+          "title": "You-jitsu 3rd Season"
+        },
+        {
+          "type": "Synonym",
+          "title": "You-zitsu 3rd Season"
+        },
+        {
+          "type": "Japanese",
+          "title": "ようこそ実力至上主義の教室へ"
+        },
+        {
+          "type": "English",
+          "title": "Classroom of the Elite III"
+        }
+      ],
+      "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season",
+      "title_english": "Classroom of the Elite III",
+      "title_japanese": "ようこそ実力至上主義の教室へ",
+      "title_synonyms": [
+        "Welcome to the Classroom of the Elite",
+        "You-jitsu 3rd Season",
+        "You-zitsu 3rd Season"
+      ],
+      "type": "TV",
+      "source": "Light novel",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2024-01-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 1,
+            "month": 1,
+            "year": 2024
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jan 2024 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 1465,
+      "members": 151621,
+      "favorites": 1430,
+      "synopsis": "3rd season of Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e.",
+      "background": null,
+      "season": "winter",
+      "year": 2024,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 1696,
+          "type": "anime",
+          "name": "Kadokawa",
+          "url": "https://myanimelist.net/anime/producer/1696/Kadokawa"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 456,
+          "type": "anime",
+          "name": "Lerche",
+          "url": "https://myanimelist.net/anime/producer/456/Lerche"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 41,
+          "type": "anime",
+          "name": "Suspense",
+          "url": "https://myanimelist.net/anime/genre/41/Suspense"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 40,
+          "type": "anime",
+          "name": "Psychological",
+          "url": "https://myanimelist.net/anime/genre/40/Psychological"
+        },
+        {
+          "mal_id": 23,
+          "type": "anime",
+          "name": "School",
+          "url": "https://myanimelist.net/anime/genre/23/School"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 53580,
+      "url": "https://myanimelist.net/anime/53580/Tensei_shitara_Slime_Datta_Ken_3rd_Season",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1766/130895.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1766/130895t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1766/130895l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1766/130895.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1766/130895t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1766/130895l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Tensei shitara Slime Datta Ken 3rd Season"
+        },
+        {
+          "type": "Synonym",
+          "title": "Tensura 3"
+        },
+        {
+          "type": "Japanese",
+          "title": "転生したらスライムだった件"
+        },
+        {
+          "type": "English",
+          "title": "That Time I Got Reincarnated as a Slime Season 3"
+        }
+      ],
+      "title": "Tensei shitara Slime Datta Ken 3rd Season",
+      "title_english": "That Time I Got Reincarnated as a Slime Season 3",
+      "title_japanese": "転生したらスライムだった件",
+      "title_synonyms": ["Tensura 3"],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2024-04-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 1,
+            "month": 4,
+            "year": 2024
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 2024 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 1628,
+      "members": 131531,
+      "favorites": 1310,
+      "synopsis": "Third season of Tensei shitara Slime Datta Ken.",
+      "background": null,
+      "season": "spring",
+      "year": 2024,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 159,
+          "type": "anime",
+          "name": "Kodansha",
+          "url": "https://myanimelist.net/anime/producer/159/Kodansha"
+        }
+      ],
+      "licensors": [],
+      "studios": [],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 62,
+          "type": "anime",
+          "name": "Isekai",
+          "url": "https://myanimelist.net/anime/genre/62/Isekai"
+        },
+        {
+          "mal_id": 72,
+          "type": "anime",
+          "name": "Reincarnation",
+          "url": "https://myanimelist.net/anime/genre/72/Reincarnation"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 49233,
+      "url": "https://myanimelist.net/anime/49233/Youjo_Senki_II",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1437/115925.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1437/115925t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1437/115925l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1437/115925.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1437/115925t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1437/115925l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "v4Uj7RJprQE",
+        "url": "https://www.youtube.com/watch?v=v4Uj7RJprQE",
+        "embed_url": "https://www.youtube.com/embed/v4Uj7RJprQE?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/v4Uj7RJprQE/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/v4Uj7RJprQE/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/v4Uj7RJprQE/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/v4Uj7RJprQE/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/v4Uj7RJprQE/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Youjo Senki II"
+        },
+        {
+          "type": "Synonym",
+          "title": "The Military Chronicles of a Little Girl II"
+        },
+        {
+          "type": "Synonym",
+          "title": "Youjo Senki 2nd Season"
+        },
+        {
+          "type": "Japanese",
+          "title": "幼女戦記 II"
+        },
+        {
+          "type": "English",
+          "title": "Saga of Tanya the Evil II"
+        }
+      ],
+      "title": "Youjo Senki II",
+      "title_english": "Saga of Tanya the Evil II",
+      "title_japanese": "幼女戦記 II",
+      "title_synonyms": [
+        "The Military Chronicles of a Little Girl II",
+        "Youjo Senki 2nd Season"
+      ],
+      "type": "TV",
+      "source": "Light novel",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": null,
+        "to": null,
+        "prop": {
+          "from": {
+            "day": null,
+            "month": null,
+            "year": null
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Not available"
+      },
+      "duration": "Unknown",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 1630,
+      "members": 131429,
+      "favorites": 1088,
+      "synopsis": "Second season of Youjo Senki.",
+      "background": null,
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 1696,
+          "type": "anime",
+          "name": "Kadokawa",
+          "url": "https://myanimelist.net/anime/producer/1696/Kadokawa"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 1567,
+          "type": "anime",
+          "name": "Nut",
+          "url": "https://myanimelist.net/anime/producer/1567/Nut"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 62,
+          "type": "anime",
+          "name": "Isekai",
+          "url": "https://myanimelist.net/anime/genre/62/Isekai"
+        },
+        {
+          "mal_id": 38,
+          "type": "anime",
+          "name": "Military",
+          "url": "https://myanimelist.net/anime/genre/38/Military"
+        },
+        {
+          "mal_id": 72,
+          "type": "anime",
+          "name": "Reincarnation",
+          "url": "https://myanimelist.net/anime/genre/72/Reincarnation"
+        }
+      ],
+      "demographics": []
+    }
+  ]
+}

@@ -1,0 +1,1044 @@
+{
+  "pagination": {
+    "last_visible_page": 63,
+    "has_next_page": true,
+    "current_page": 1,
+    "items": {
+      "count": 6,
+      "total": 378,
+      "per_page": 6
+    }
+  },
+  "data": [
+    {
+      "mal_id": 52991,
+      "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1015/138006t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1015/138006l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1015/138006.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1015/138006t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1015/138006l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "tR8YH0G67Rk",
+        "url": "https://www.youtube.com/watch?v=tR8YH0G67Rk",
+        "embed_url": "https://www.youtube.com/embed/tR8YH0G67Rk?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/tR8YH0G67Rk/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/tR8YH0G67Rk/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/tR8YH0G67Rk/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/tR8YH0G67Rk/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/tR8YH0G67Rk/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Sousou no Frieren"
+        },
+        {
+          "type": "Synonym",
+          "title": "Frieren at the Funeral"
+        },
+        {
+          "type": "Japanese",
+          "title": "葬送のフリーレン"
+        },
+        {
+          "type": "English",
+          "title": "Frieren: Beyond Journey's End"
+        }
+      ],
+      "title": "Sousou no Frieren",
+      "title_english": "Frieren: Beyond Journey's End",
+      "title_japanese": "葬送のフリーレン",
+      "title_synonyms": ["Frieren at the Funeral"],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": 28,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2023-09-29T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 29,
+            "month": 9,
+            "year": 2023
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Sep 29, 2023 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 9.02,
+      "scored_by": 51823,
+      "rank": 12,
+      "popularity": 897,
+      "members": 259078,
+      "favorites": 3581,
+      "synopsis": "The demon king has been defeated, and the victorious hero party returns home before disbanding. The four—mage Frieren, hero Himmel, priest Heiter, and warrior Eisen—reminisce about their decade-long journey as the moment to bid each other farewell arrives. But the passing of time is different for elves, thus Frieren witnesses her companions slowly pass away one by one.\n\nBefore his death, Heiter manages to foist a young human apprentice called Fern onto Frieren. Driven by the elf's passion for collecting a myriad of magic spells, the pair embarks on a seemingly aimless journey, revisiting the places that the heroes of yore had visited. Along their travels, Frieren slowly confronts her regrets of missed opportunities to form deeper bonds with her now-deceased comrades.\n\n[Written by MAL Rewrite]",
+      "background": "Sousou no Frieren was released on Blu-ray and DVD in seven volumes from January 24, 2024, to July 17, 2024.",
+      "season": "fall",
+      "year": 2023,
+      "broadcast": {
+        "day": "Fridays",
+        "time": "23:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Fridays at 23:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 17,
+          "type": "anime",
+          "name": "Aniplex",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "mal_id": 53,
+          "type": "anime",
+          "name": "Dentsu",
+          "url": "https://myanimelist.net/anime/producer/53/Dentsu"
+        },
+        {
+          "mal_id": 62,
+          "type": "anime",
+          "name": "Shogakukan-Shueisha Productions",
+          "url": "https://myanimelist.net/anime/producer/62/Shogakukan-Shueisha_Productions"
+        },
+        {
+          "mal_id": 1003,
+          "type": "anime",
+          "name": "Nippon Television Network",
+          "url": "https://myanimelist.net/anime/producer/1003/Nippon_Television_Network"
+        },
+        {
+          "mal_id": 1143,
+          "type": "anime",
+          "name": "TOHO animation",
+          "url": "https://myanimelist.net/anime/producer/1143/TOHO_animation"
+        },
+        {
+          "mal_id": 1430,
+          "type": "anime",
+          "name": "Shogakukan",
+          "url": "https://myanimelist.net/anime/producer/1430/Shogakukan"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 11,
+          "type": "anime",
+          "name": "Madhouse",
+          "url": "https://myanimelist.net/anime/producer/11/Madhouse"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 51009,
+      "url": "https://myanimelist.net/anime/51009/Jujutsu_Kaisen_2nd_Season",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1792/138022.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1792/138022t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1792/138022l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1792/138022.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1792/138022t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1792/138022l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "PKHQuQF1S8k",
+        "url": "https://www.youtube.com/watch?v=PKHQuQF1S8k",
+        "embed_url": "https://www.youtube.com/embed/PKHQuQF1S8k?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/PKHQuQF1S8k/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/PKHQuQF1S8k/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/PKHQuQF1S8k/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/PKHQuQF1S8k/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/PKHQuQF1S8k/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Jujutsu Kaisen 2nd Season"
+        },
+        {
+          "type": "Synonym",
+          "title": "Jujutsu Kaisen: Kaigyoku Gyokusetsu"
+        },
+        {
+          "type": "Synonym",
+          "title": "Jujutsu Kaisen: Shibuya Jihen"
+        },
+        {
+          "type": "Synonym",
+          "title": "Sorcery Fight"
+        },
+        {
+          "type": "Synonym",
+          "title": "JJK"
+        },
+        {
+          "type": "Japanese",
+          "title": "呪術廻戦 懐玉・玉折／渋谷事変"
+        },
+        {
+          "type": "English",
+          "title": "Jujutsu Kaisen Season 2"
+        }
+      ],
+      "title": "Jujutsu Kaisen 2nd Season",
+      "title_english": "Jujutsu Kaisen Season 2",
+      "title_japanese": "呪術廻戦 懐玉・玉折／渋谷事変",
+      "title_synonyms": [
+        "Jujutsu Kaisen: Kaigyoku Gyokusetsu",
+        "Jujutsu Kaisen: Shibuya Jihen",
+        "Sorcery Fight",
+        "JJK"
+      ],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": 23,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2023-07-06T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 6,
+            "month": 7,
+            "year": 2023
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 6, 2023 to ?"
+      },
+      "duration": "23 min per ep",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.85,
+      "scored_by": 136794,
+      "rank": 26,
+      "popularity": 301,
+      "members": 654387,
+      "favorites": 11120,
+      "synopsis": "The year is 2006, and the halls of Tokyo Prefectural Jujutsu High School echo with the endless bickering and intense debate between two inseparable best friends. Exuding unshakeable confidence, Satoru Gojou and Suguru Getou believe there is no challenge too great for young and powerful Special Grade sorcerers such as themselves. They are tasked with safely delivering a sensible girl named Riko Amanai to the entity whose existence is the very essence of the jujutsu world. However, the mission plunges them into an exhausting swirl of moral conflict that threatens to destroy the already feeble amity between sorcerers and ordinary humans.\n\nTwelve years later, students and sorcerers are the frontline defense against the rising number of high-level curses born from humans' negative emotions. As the entities grow in power, their self-awareness and ambition increase too. The curses unite for the common goal of eradicating humans and creating a world of only cursed energy users, led by a dangerous, ancient cursed spirit. To dispose of their greatest obstacle—the strongest sorcerer, Gojou—they orchestrate an attack at Shibuya Station on Halloween. Dividing into teams, the sorcerers enter the fight prepared to risk everything to protect the innocent and their own kind.\n\n[Written by MAL Rewrite]",
+      "background": "Jujutsu Kaisen 2nd Season was released on Blu-ray and DVD in six volumes from October 18, 2023, to May 22, 2024.",
+      "season": "summer",
+      "year": 2023,
+      "broadcast": {
+        "day": "Thursdays",
+        "time": "23:56",
+        "timezone": "Asia/Tokyo",
+        "string": "Thursdays at 23:56 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 143,
+          "type": "anime",
+          "name": "Mainichi Broadcasting System",
+          "url": "https://myanimelist.net/anime/producer/143/Mainichi_Broadcasting_System"
+        },
+        {
+          "mal_id": 1143,
+          "type": "anime",
+          "name": "TOHO animation",
+          "url": "https://myanimelist.net/anime/producer/1143/TOHO_animation"
+        },
+        {
+          "mal_id": 1365,
+          "type": "anime",
+          "name": "Shueisha",
+          "url": "https://myanimelist.net/anime/producer/1365/Shueisha"
+        },
+        {
+          "mal_id": 1856,
+          "type": "anime",
+          "name": "dugout",
+          "url": "https://myanimelist.net/anime/producer/1856/dugout"
+        },
+        {
+          "mal_id": 2260,
+          "type": "anime",
+          "name": "Sumzap",
+          "url": "https://myanimelist.net/anime/producer/2260/Sumzap"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 569,
+          "type": "anime",
+          "name": "MAPPA",
+          "url": "https://myanimelist.net/anime/producer/569/MAPPA"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 23,
+          "type": "anime",
+          "name": "School",
+          "url": "https://myanimelist.net/anime/genre/23/School"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 50399,
+      "url": "https://myanimelist.net/anime/50399/Tian_Guan_Cifu_Er",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1280/138635.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1280/138635t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1280/138635l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1280/138635.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1280/138635t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1280/138635l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "yALbu3FuEYI",
+        "url": "https://www.youtube.com/watch?v=yALbu3FuEYI",
+        "embed_url": "https://www.youtube.com/embed/yALbu3FuEYI?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/yALbu3FuEYI/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/yALbu3FuEYI/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/yALbu3FuEYI/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/yALbu3FuEYI/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/yALbu3FuEYI/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Tian Guan Cifu Er"
+        },
+        {
+          "type": "Synonym",
+          "title": "Tian Guan Cifu 2nd Season"
+        },
+        {
+          "type": "Synonym",
+          "title": "Tian Guan Ci Fu"
+        },
+        {
+          "type": "Japanese",
+          "title": "天官賜福 貳"
+        },
+        {
+          "type": "English",
+          "title": "Heaven Official's Blessing Season 2"
+        }
+      ],
+      "title": "Tian Guan Cifu Er",
+      "title_english": "Heaven Official's Blessing Season 2",
+      "title_japanese": "天官賜福 貳",
+      "title_synonyms": ["Tian Guan Cifu 2nd Season", "Tian Guan Ci Fu"],
+      "type": "ONA",
+      "source": "Web novel",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2023-10-18T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 18,
+            "month": 10,
+            "year": 2023
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Oct 18, 2023 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.82,
+      "scored_by": 1754,
+      "rank": 29,
+      "popularity": 4121,
+      "members": 26894,
+      "favorites": 411,
+      "synopsis": "Second season of Tian Guan Cifu.",
+      "background": null,
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [
+        {
+          "mal_id": 1414,
+          "type": "anime",
+          "name": "bilibili",
+          "url": "https://myanimelist.net/anime/producer/1414/bilibili"
+        },
+        {
+          "mal_id": 2126,
+          "type": "anime",
+          "name": "Red Dog Culture House",
+          "url": "https://myanimelist.net/anime/producer/2126/Red_Dog_Culture_House"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 1325,
+          "type": "anime",
+          "name": "Haoliners Animation League",
+          "url": "https://myanimelist.net/anime/producer/1325/Haoliners_Animation_League"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 13,
+          "type": "anime",
+          "name": "Historical",
+          "url": "https://myanimelist.net/anime/genre/13/Historical"
+        },
+        {
+          "mal_id": 6,
+          "type": "anime",
+          "name": "Mythology",
+          "url": "https://myanimelist.net/anime/genre/6/Mythology"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 21,
+      "url": "https://myanimelist.net/anime/21/One_Piece",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/6/73245t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/6/73245l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/6/73245.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/6/73245t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/6/73245l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "l_98K4_6UQ0",
+        "url": "https://www.youtube.com/watch?v=l_98K4_6UQ0",
+        "embed_url": "https://www.youtube.com/embed/l_98K4_6UQ0?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/l_98K4_6UQ0/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/l_98K4_6UQ0/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/l_98K4_6UQ0/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/l_98K4_6UQ0/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/l_98K4_6UQ0/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "One Piece"
+        },
+        {
+          "type": "Synonym",
+          "title": "OP"
+        },
+        {
+          "type": "Japanese",
+          "title": "ONE PIECE"
+        },
+        {
+          "type": "English",
+          "title": "One Piece"
+        }
+      ],
+      "title": "One Piece",
+      "title_english": "One Piece",
+      "title_japanese": "ONE PIECE",
+      "title_synonyms": ["OP"],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "1999-10-20T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 20,
+            "month": 10,
+            "year": 1999
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Oct 20, 1999 to ?"
+      },
+      "duration": "24 min",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.71,
+      "scored_by": 1280630,
+      "rank": 55,
+      "popularity": 19,
+      "members": 2262205,
+      "favorites": 210537,
+      "synopsis": "Barely surviving in a barrel after passing through a terrible whirlpool at sea, carefree Monkey D. Luffy ends up aboard a ship under attack by fearsome pirates. Despite being a naive-looking teenager, he is not to be underestimated. Unmatched in battle, Luffy is a pirate himself who resolutely pursues the coveted One Piece treasure and the King of the Pirates title that comes with it.\n\nThe late King of the Pirates, Gol D. Roger, stirred up the world before his death by disclosing the whereabouts of his hoard of riches and daring everyone to obtain it. Ever since then, countless powerful pirates have sailed dangerous seas for the prized One Piece only to never return. Although Luffy lacks a crew and a proper ship, he is endowed with a superhuman ability and an unbreakable spirit that make him not only a formidable adversary but also an inspiration to many.\n\nAs he faces numerous challenges with a big smile on his face, Luffy gathers one-of-a-kind companions to join him in his ambitious endeavor, together embracing perils and wonders on their once-in-a-lifetime adventure.\n\n[Written by MAL Rewrite]",
+      "background": "Several anime-original arcs have been adapted into light novels, and the series has inspired 50+ video games as of 2023. In June 2004, One Piece was licensed in North America by 4Kids Entertainment, which partnered with Viz Media for home video distribution. As One Piece proved unsuitable for their target demographic, 4Kids Entertainment censored the show to meet their standards, and, in December 2006, they stopped its production. In April 2007, Funimation took over the series licensing, providing an uncut version that remained faithful to the original release. In Japan, the anime's first 574 episodes were released exclusively on DVD by Avex Pictures from February 21, 2001, to December 4, 2013. Blu-rays also became available with the DVDs starting on January 8, 2014. In North America, Viz Media released the anime on DVD between February 28, 2006, and June 26, 2007. Funimation has re-released and continued the series since May 27, 2008. From March 23, 2021, the DVDs were accompanied by Blu-rays as well.",
+      "season": "fall",
+      "year": 1999,
+      "broadcast": {
+        "day": "Sundays",
+        "time": "09:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Sundays at 09:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 169,
+          "type": "anime",
+          "name": "Fuji TV",
+          "url": "https://myanimelist.net/anime/producer/169/Fuji_TV"
+        },
+        {
+          "mal_id": 416,
+          "type": "anime",
+          "name": "TAP",
+          "url": "https://myanimelist.net/anime/producer/416/TAP"
+        },
+        {
+          "mal_id": 1365,
+          "type": "anime",
+          "name": "Shueisha",
+          "url": "https://myanimelist.net/anime/producer/1365/Shueisha"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 102,
+          "type": "anime",
+          "name": "Funimation",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        },
+        {
+          "mal_id": 252,
+          "type": "anime",
+          "name": "4Kids Entertainment",
+          "url": "https://myanimelist.net/anime/producer/252/4Kids_Entertainment"
+        }
+      ],
+      "studios": [
+        {
+          "mal_id": 18,
+          "type": "anime",
+          "name": "Toei Animation",
+          "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 54595,
+      "url": "https://myanimelist.net/anime/54595/Kage_no_Jitsuryokusha_ni_Naritakute_2nd_Season",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1622/139331.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1622/139331t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1622/139331l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1622/139331.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1622/139331t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1622/139331l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "OqzdUcc3k9Y",
+        "url": "https://www.youtube.com/watch?v=OqzdUcc3k9Y",
+        "embed_url": "https://www.youtube.com/embed/OqzdUcc3k9Y?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/OqzdUcc3k9Y/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/OqzdUcc3k9Y/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/OqzdUcc3k9Y/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/OqzdUcc3k9Y/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/OqzdUcc3k9Y/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Kage no Jitsuryokusha ni Naritakute! 2nd Season"
+        },
+        {
+          "type": "Synonym",
+          "title": "Shadow Garden 2nd Season"
+        },
+        {
+          "type": "Japanese",
+          "title": "陰の実力者になりたくて！ 2nd Season"
+        },
+        {
+          "type": "English",
+          "title": "The Eminence in Shadow Season 2"
+        }
+      ],
+      "title": "Kage no Jitsuryokusha ni Naritakute! 2nd Season",
+      "title_english": "The Eminence in Shadow Season 2",
+      "title_japanese": "陰の実力者になりたくて！ 2nd Season",
+      "title_synonyms": ["Shadow Garden 2nd Season"],
+      "type": "TV",
+      "source": "Light novel",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2023-10-04T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 4,
+            "month": 10,
+            "year": 2023
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Oct 4, 2023 to ?"
+      },
+      "duration": "23 min per ep",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.65,
+      "scored_by": 32033,
+      "rank": 73,
+      "popularity": 1048,
+      "members": 222452,
+      "favorites": 2481,
+      "synopsis": "Everything has been going according to plan, but the hour of awakening draws near. Cid Kagenou and Shadow Garden investigate the Lawless City, a cesspool where the red moon hangs low in the sky and three powerful monarchs rule the streets. The true draw for Cid, however, is one who can draw blood–the Blood Queen, a vampire who has slumbered in her coffin for eons. Her awakening approaches, and Cid could finally face a day of reckoning.\n\n(Source: HIDIVE)",
+      "background": null,
+      "season": "fall",
+      "year": 2023,
+      "broadcast": {
+        "day": "Wednesdays",
+        "time": "22:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Wednesdays at 22:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 238,
+          "type": "anime",
+          "name": "AT-X",
+          "url": "https://myanimelist.net/anime/producer/238/AT-X"
+        },
+        {
+          "mal_id": 306,
+          "type": "anime",
+          "name": "Magic Capsule",
+          "url": "https://myanimelist.net/anime/producer/306/Magic_Capsule"
+        },
+        {
+          "mal_id": 1680,
+          "type": "anime",
+          "name": "BS NTV",
+          "url": "https://myanimelist.net/anime/producer/1680/BS_NTV"
+        },
+        {
+          "mal_id": 1696,
+          "type": "anime",
+          "name": "Kadokawa",
+          "url": "https://myanimelist.net/anime/producer/1696/Kadokawa"
+        },
+        {
+          "mal_id": 1779,
+          "type": "anime",
+          "name": "NewGin",
+          "url": "https://myanimelist.net/anime/producer/1779/NewGin"
+        },
+        {
+          "mal_id": 2435,
+          "type": "anime",
+          "name": "Aiming",
+          "url": "https://myanimelist.net/anime/producer/2435/Aiming"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 376,
+          "type": "anime",
+          "name": "Sentai Filmworks",
+          "url": "https://myanimelist.net/anime/producer/376/Sentai_Filmworks"
+        }
+      ],
+      "studios": [
+        {
+          "mal_id": 852,
+          "type": "anime",
+          "name": "Nexus",
+          "url": "https://myanimelist.net/anime/producer/852/Nexus"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 62,
+          "type": "anime",
+          "name": "Isekai",
+          "url": "https://myanimelist.net/anime/genre/62/Isekai"
+        },
+        {
+          "mal_id": 72,
+          "type": "anime",
+          "name": "Reincarnation",
+          "url": "https://myanimelist.net/anime/genre/72/Reincarnation"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 54492,
+      "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1708/138033.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1708/138033t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1708/138033l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1708/138033.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1708/138033t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1708/138033l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "OI3MLOX9CpA",
+        "url": "https://www.youtube.com/watch?v=OI3MLOX9CpA",
+        "embed_url": "https://www.youtube.com/embed/OI3MLOX9CpA?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/OI3MLOX9CpA/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/OI3MLOX9CpA/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/OI3MLOX9CpA/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/OI3MLOX9CpA/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/OI3MLOX9CpA/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Kusuriya no Hitorigoto"
+        },
+        {
+          "type": "Synonym",
+          "title": "The Pharmacist's Monologue"
+        },
+        {
+          "type": "Synonym",
+          "title": "Drugstore Soliloquy"
+        },
+        {
+          "type": "Japanese",
+          "title": "薬屋のひとりごと"
+        },
+        {
+          "type": "English",
+          "title": "The Apothecary Diaries"
+        }
+      ],
+      "title": "Kusuriya no Hitorigoto",
+      "title_english": "The Apothecary Diaries",
+      "title_japanese": "薬屋のひとりごと",
+      "title_synonyms": ["The Pharmacist's Monologue", "Drugstore Soliloquy"],
+      "type": "TV",
+      "source": "Light novel",
+      "episodes": 24,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2023-10-22T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 22,
+            "month": 10,
+            "year": 2023
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Oct 22, 2023 to ?"
+      },
+      "duration": "22 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.64,
+      "scored_by": 14077,
+      "rank": 75,
+      "popularity": 1784,
+      "members": 117483,
+      "favorites": 936,
+      "synopsis": "In an imperial court in ancient China, it has been a few months since a 17-year-old girl known as Maomao was kidnapped and forced to work as a low-level servant at the emperor's palace. Still, she manages to retain her curious and pragmatic spirit, planning to work until her years of servitude are over. One day, however, she catches wind of the fact that the emperor's two infants have fallen gravely ill. She decides to secretly take action, drawing on her experience as a pharmacist raised in the poor red-light district.\n\nDespite Maomao's attempts to remain anonymous, she soon catches the eye of Jinshi, an influential eunuch who recognizes her talents. Maomao soon finds herself in the emperor's inner court, where she gradually makes a name for herself by utilizing her knowledge and eccentric personality to solve various medical mysteries.\n\n[Written by MAL Rewrite]",
+      "background": "Kusuriya no Hitorigoto was released on Blu-ray in four volumes from January 24, 2024, to July 17, 2024.",
+      "season": "fall",
+      "year": 2023,
+      "broadcast": {
+        "day": "Sundays",
+        "time": "01:05",
+        "timezone": "Asia/Tokyo",
+        "string": "Sundays at 01:05 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 53,
+          "type": "anime",
+          "name": "Dentsu",
+          "url": "https://myanimelist.net/anime/producer/53/Dentsu"
+        },
+        {
+          "mal_id": 58,
+          "type": "anime",
+          "name": "Square Enix",
+          "url": "https://myanimelist.net/anime/producer/58/Square_Enix"
+        },
+        {
+          "mal_id": 1003,
+          "type": "anime",
+          "name": "Nippon Television Network",
+          "url": "https://myanimelist.net/anime/producer/1003/Nippon_Television_Network"
+        },
+        {
+          "mal_id": 1143,
+          "type": "anime",
+          "name": "TOHO animation",
+          "url": "https://myanimelist.net/anime/producer/1143/TOHO_animation"
+        },
+        {
+          "mal_id": 1430,
+          "type": "anime",
+          "name": "Shogakukan",
+          "url": "https://myanimelist.net/anime/producer/1430/Shogakukan"
+        },
+        {
+          "mal_id": 2844,
+          "type": "anime",
+          "name": "Imagica Infos",
+          "url": "https://myanimelist.net/anime/producer/2844/Imagica_Infos"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 28,
+          "type": "anime",
+          "name": "OLM",
+          "url": "https://myanimelist.net/anime/producer/28/OLM"
+        },
+        {
+          "mal_id": 2705,
+          "type": "anime",
+          "name": "TOHO animation STUDIO",
+          "url": "https://myanimelist.net/anime/producer/2705/TOHO_animation_STUDIO"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 7,
+          "type": "anime",
+          "name": "Mystery",
+          "url": "https://myanimelist.net/anime/genre/7/Mystery"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 13,
+          "type": "anime",
+          "name": "Historical",
+          "url": "https://myanimelist.net/anime/genre/13/Historical"
+        },
+        {
+          "mal_id": 67,
+          "type": "anime",
+          "name": "Medical",
+          "url": "https://myanimelist.net/anime/genre/67/Medical"
+        }
+      ],
+      "demographics": []
+    }
+  ]
+}
