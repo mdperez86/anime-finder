@@ -1,13 +1,15 @@
-import "./globals.css";
 import { Inter } from "next/font/google";
 import { LayoutProps } from "./types";
 import classNames from "classnames";
+
+import "./globals.css";
+import { Header } from "@this/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Anime finder",
-  description: "The anime finder we site",
+  description: "The anime finder web site",
 };
 
 export default function RootLayout({ children }: LayoutProps) {
@@ -19,6 +21,8 @@ export default function RootLayout({ children }: LayoutProps) {
           "text-secondary-200 text-base bg-secondary-950 min-h-screen"
         )}
       >
+        <Header title={metadata.title} />
+
         {children}
       </body>
     </html>
