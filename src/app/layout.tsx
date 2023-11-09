@@ -4,6 +4,7 @@ import classNames from "classnames";
 
 import "./globals.css";
 import { Header } from "@this/components/Header";
+import { Footer } from "@this/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,8 @@ export default function RootLayout({ children }: LayoutProps) {
         <Header title={metadata.title} />
 
         {children}
+
+        <Footer />
       </body>
     </html>
   );
