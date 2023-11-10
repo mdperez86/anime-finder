@@ -144,12 +144,10 @@ export default async function Page({ params }: PageProps) {
         </Card>
 
         <Suspense fallback={<CharactersAndVoicesActorsListSkeleton />}>
-          {/* @ts-expect-error Async Server Component */}
           <CharactersAndVoicesActorsList anime={anime} />
         </Suspense>
 
         <Suspense fallback={<StaffListSkeleton />}>
-          {/* @ts-expect-error Async Server Component */}
           <StaffList anime={anime} />
         </Suspense>
 

@@ -1,7 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["cdn.myanimelist.net", "img1.ak.crunchyroll.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.myanimelist.net",
+      },
+      {
+        protocol: "https",
+        hostname: "img1.ak.crunchyroll.com",
+      },
+    ],
   },
 };
 
