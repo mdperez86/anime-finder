@@ -46,6 +46,7 @@ export function Header({ title }: HeaderProps) {
             className={classNames(
               "flex w-fit items-center justify-end bg-white/20 rounded-full",
               "transition-all ease-linear duration-100",
+              "focus-within:outline",
               {
                 "w-9 focus-within:w-full focus-within:max-w-xs": !searchValue,
                 "w-full max-w-xs": searchValue,
@@ -64,7 +65,8 @@ export function Header({ title }: HeaderProps) {
                   "w-full pl-3": searchValue,
                 }
               )}
-              aria-label="Search"
+              placeholder="Search anime"
+              aria-label="Search anime"
               value={searchValue}
               onChange={handleSeachInputChange}
             />
@@ -74,6 +76,7 @@ export function Header({ title }: HeaderProps) {
               className="w-9 h-9 shrink-0 flex items-center justify-center"
               onClick={handleSearchButtonClick}
               tabIndex={-1}
+              aria-label="Espand seach input"
             >
               <MagnifyingGlassIcon className="w-6 h-6" />
             </button>
