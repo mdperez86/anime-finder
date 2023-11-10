@@ -1,22 +1,18 @@
+import { Suspense } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 import { getAnimeSearch } from "@this/services/animes";
-import { Card } from "@this/components/Card";
-import { Score } from "@this/components/Score";
-import { Anime } from "@this/types";
+import {
+  AnimeList,
+  Skeleton as AnimeListSkeleton,
+} from "@this/components/AnimeList";
 import { ButtonLink } from "@this/components/ButtonLink";
 
 import { PageProps } from "../types";
 
-function getYear(anime: Anime) {
-  if (anime.year) return `${anime.year}`;
-  if (anime.aired.from)
-    return new Date(anime.aired.from).toLocaleDateString(undefined, {
-      year: "numeric",
-    });
-  return `Unknow year`;
-}
+export const metadata = {
+  title: "Search animes",
+};
 
 export default async function Page({ searchParams }: PageProps) {
   const page = searchParams.page
@@ -34,7 +30,9 @@ export default async function Page({ searchParams }: PageProps) {
 
   return (
     <main>
-      {response.data.length && (
+      <h1 className="sr-only">{metadata.title}</h1>
+
+      {Boolean(response.data.length) && (
         <div className="w-full h-full fixed top-0">
           <div className="relative aspect-[3/4] w-full">
             <Image
@@ -48,36 +46,11 @@ export default async function Page({ searchParams }: PageProps) {
           <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-secondary-800/50 to-secondary-950 backdrop-blur-sm" />
         </div>
       )}
+
       <div className="container mx-auto p-4 space-y-4 relative">
-        <ol className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
-          {response.data.map((anime) => (
-            <li key={anime.mal_id} className="aspect-[9/16]">
-              <Link href={`/animes/${anime.mal_id}`}>
-                <Card className="flex flex-col h-full transition duration-500 transform-gpu hover:scale-105">
-                  <div className="flex flex-grow overflow-hidden relative">
-                    <Image
-                      src={anime.images.webp.large_image_url ?? ""}
-                      sizes="(max-width: 768px) 80vw, (max-width: 1200px) 50vw, 33vw"
-                      priority={false}
-                      fill
-                      alt={anime.titles[0].title}
-                      className="object-cover pointer-events-none"
-                    />
-                  </div>
-                  <div className="p-2 space-y-1">
-                    <h2 className="truncate text-ellipsis font-semibold text-primary-400">
-                      {anime.titles[0].title}
-                    </h2>
-                    <div className="text-sm space-y-1">
-                      <Score score={anime.score ?? 0} />
-                      <p>{getYear(anime)}</p>
-                    </div>
-                  </div>
-                </Card>
-              </Link>
-            </li>
-          ))}
-        </ol>
+        <Suspense fallback={<AnimeListSkeleton />}>
+          <AnimeList animes={response.data} />
+        </Suspense>
 
         <div className="flex items-center justify-center md:justify-end gap-4 pb-8">
           {page > 1 && (
