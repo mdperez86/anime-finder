@@ -1,16 +1,13 @@
-import { getAnimeSearch } from "@this/services/animes";
 import Image from "next/image";
-import {
-  ChevronLeftIcon,
-  ChevronRightIcon,
-  StarIcon,
-} from "@heroicons/react/24/solid";
-import { PageProps } from "../types";
 import Link from "next/link";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
+import { getAnimeSearch } from "@this/services/animes";
 import { Card } from "@this/components/Card";
 import { Score } from "@this/components/Score";
 import { Anime } from "@this/types";
 import { ButtonLink } from "@this/components/ButtonLink";
+
+import { PageProps } from "../types";
 
 function getYear(anime: Anime) {
   if (anime.year) return `${anime.year}`;
@@ -52,16 +49,6 @@ export default async function Page({ searchParams }: PageProps) {
         </div>
       )}
       <div className="container mx-auto p-4 space-y-4 relative">
-        <form method="get" className="flex items-center justify-center">
-          <input
-            type="search"
-            name="q"
-            className="bg-white/20 rounded-md p-3"
-            aria-label="Search"
-            defaultValue={q}
-          />
-        </form>
-
         <ol className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
           {response.data.map((anime) => (
             <li key={anime.mal_id} className="aspect-[9/16]">
