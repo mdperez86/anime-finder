@@ -22,8 +22,8 @@ export function Header({ title }: HeaderProps) {
   useEffect(focusSearchInput, []);
 
   return (
-    <div className="sticky top-0 w-full h-16 z-30 bg-gradient-to-br from-secondary-600/40 to-secondary-800/60 backdrop-blur-xl border-b border-secondary-700/50 shadow-xl flex items-center gap-4">
-      <header className="container mx-auto px-4 flex items-center gap-4">
+    <header className="sticky top-0 w-full h-16 z-30 bg-gradient-to-br from-secondary-600/40 to-secondary-800/60 backdrop-blur-xl border-b border-secondary-700/50 shadow-xl flex items-center gap-4">
+      <div className="container mx-auto px-4 flex items-center gap-4">
         {pathname != "/" && (
           <button
             className="w-9 h-9 flex flex-shrink-0 items-center justify-center rounded-full hover:bg-white/30"
@@ -79,8 +79,8 @@ export function Header({ title }: HeaderProps) {
             </button>
           </form>
         </div>
-      </header>
-    </div>
+      </div>
+    </header>
   );
 
   function focusSearchInput() {
