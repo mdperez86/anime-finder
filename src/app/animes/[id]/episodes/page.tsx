@@ -1,10 +1,14 @@
-import { getAnimeVideosEpisodes } from "@this/services/animes";
 import Image from "next/image";
 import Link from "next/link";
-import { Card } from "@this/components/Card";
-import { PageProps } from "@this/app/types";
-import { ButtonLink } from "@this/components/ButtonLink";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
+import { PageProps } from "@this/app/types";
+import { getAnimeVideosEpisodes } from "@this/services/animes";
+import { Card } from "@this/components/Card";
+import { ButtonLink } from "@this/components/ButtonLink";
+
+export const metadata = {
+  title: "Episodes",
+};
 
 export default async function Page({ params, searchParams }: PageProps) {
   const animeId = Number.parseInt(params.id, 10);
@@ -17,7 +21,7 @@ export default async function Page({ params, searchParams }: PageProps) {
 
   return (
     <main>
-      {response.data.length && response.data[0].images.jpg.image_url && (
+      {response.data[0]?.images.jpg.image_url && (
         <div className="w-full h-full fixed top-0">
           <div className="relative aspect-[3/4] w-full">
             <Image
@@ -33,7 +37,7 @@ export default async function Page({ params, searchParams }: PageProps) {
       )}
 
       <div className="container mx-auto p-4 space-y-8 relative">
-        <h1 className="font-bold text-2xl">Episodes</h1>
+        <h1 className="font-bold text-2xl">{metadata.title}</h1>
 
         <ol className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {response.data.map((episode) => (

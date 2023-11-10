@@ -1,8 +1,12 @@
+import Image from "next/image";
 import { getAnimeCharacters } from "@this/services/animes";
 import { PageProps } from "@this/app/types";
-import Image from "next/image";
 import { Card } from "@this/components/Card";
 import { CharactersAndVoicesActorsListItem } from "@this/components/CharactersAndVoicesActorsListItem";
+
+export const metadata = {
+  title: "Charactes & Voices Actors",
+};
 
 export default async function Page({ params }: PageProps) {
   const animeId = Number.parseInt(params.id, 10);
@@ -29,7 +33,7 @@ export default async function Page({ params }: PageProps) {
       <div className="container mx-auto p-4 space-y-4 relative">
         <Card>
           <h1 className="text-primary-400 font-semibold text-lg p-4">
-            Charactes & Voices Actors
+            {metadata.title}
           </h1>
           <ul className="divide-y divide-secondary-700/50">
             {response.data.map((item) => (
