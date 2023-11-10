@@ -1,8 +1,12 @@
+import Image from "next/image";
 import { getAnimeStaff } from "@this/services/animes";
 import { PageProps } from "@this/app/types";
-import Image from "next/image";
 import { Card } from "@this/components/Card";
 import { StaffListItem } from "@this/components/StaffListItem";
+
+export const metadata = {
+  title: "Staff",
+};
 
 export default async function Page({ params }: PageProps) {
   const animeId = Number.parseInt(params.id, 10);
@@ -27,7 +31,10 @@ export default async function Page({ params }: PageProps) {
 
       <div className="container mx-auto p-4 space-y-4 relative">
         <Card>
-          <h1 className="text-primary-400 font-semibold text-lg p-4">Staff</h1>
+          <h1 className="text-primary-400 font-semibold text-lg p-4">
+            {metadata.title}
+          </h1>
+
           <ul className="divide-y divide-secondary-700/50">
             {response.data.map((item) => (
               <StaffListItem key={item.person.mal_id} staff={item} />
