@@ -21,6 +21,19 @@ export interface SearchAnimeRequest extends Record<string, any> {
   page?: number;
   limit?: number;
   q?: string;
+  order_by?:
+    | "mal_id"
+    | "title"
+    | "start_date"
+    | "end_date"
+    | "episodes"
+    | "score"
+    | "scored_by"
+    | "rank"
+    | "popularity"
+    | "members"
+    | "favorites";
+  sort?: "asc" | "desc";
 }
 
 export interface AnimeMetadata {
